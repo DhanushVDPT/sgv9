@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Aachen Bold';
+    src: url(./fonts/aachen-bold.otf);
+}
+@font-face {
+    font-family: 'Benguiat Bold';
+    src: url(./fonts/ITCBenguiatStdBoldCn.OTF);
+}
+@font-face {
+    font-family: 'Motor Oil';
+    src: url(./fonts/Motor\ Oil\ 1937\ M54.ttf);
+}
+
+*{
+    font-size: 1.05em;
+    font-family: 'Motor Oil';
+}
+
+a{
+    font-family: 'Benguiat Bold';
+    text-decoration: none;
+    color: #FABB15;
+}
+
+a:visited{
+    font-family: 'Benguiat Bold';
+    text-decoration: none;
+    color: #FABB15;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.6em;
+}
+
+body{
+    background-color: #000000;
+    color: #FABB15;
+}
+
+h1{
+    font-family: 'Aachen Bold';
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.navoptions{
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.subject{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.frame{
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 60vw;
+    height: 90vh;
+}
+
